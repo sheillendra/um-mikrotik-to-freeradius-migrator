@@ -1,0 +1,20 @@
+actor: AcceptanceTester
+suite_namespace: Tests\Acceptance
+modules:
+    # enable helpers as array
+    enabled: 
+        - WebDriver:
+            url: 'http://192.168.88.1'
+            path: '/'
+            browser: chrome
+            host: 127.0.0.1
+            port: 53530
+        #    window_size: maximize
+        #     capabilities:
+        #         chromeOptions:
+        #             args:
+        #                 - "--disable-logging"
+        #                 - "--log-level=3"
+        #                 - "--ignore-certificate-errors"
+        #                 - "--headless=new"
+        - \Tests\Support\Helper\Acceptance

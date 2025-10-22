@@ -1,0 +1,12 @@
+{
+    "require": {
+        "php-webdriver/webdriver": "^1.15",
+        "symfony/dotenv": "^7.3"
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.3",
+        "codeception/module-webdriver": "^4.0",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "*"
+    }
+}
